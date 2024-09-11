@@ -27,7 +27,7 @@
                   </svg>Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-fill" viewBox="0 0 16 16">
+                <a class="nav-link" href="aboutme.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-fill" viewBox="0 0 16 16">
                     <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2z"/>
                   </svg>About Me</a>
               </li>
@@ -53,25 +53,29 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Start.jpg" class="d-block w-100" alt="...">
+        <div class="card-group">
+          <div class="card">
+            <img src="Start.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is me when I was 1 or 2 years old.</p>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="middle.jpg" class="d-block w-100" alt="...">
+          <div class="card">
+            <img src="middle.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is when we went to India.</p>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="end.jpg" class="d-block w-100" alt="...">
+          <div class="card">
+            <img src="end.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is when we celebrated 2022's Christmas.</p>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
 </body>
+<script>
+  let a = prompt("Enter Your Name Here.")
+  alert("Hello " + a + ". Welcome to my Portfolio Website.")
+</script>
 </html>

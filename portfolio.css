@@ -1,5 +1,22 @@
-.bi-house-fill{color: blue;}
-.bi-file-earmark-fill{color: rgb(4, 80, 4);}
-.bi-collection-fill{color: yellowgreen;}
-.bi-telephone-fill{color: red;}
-.bi{margin-right: 7px;}
+.bi-house-fill {
+    color: blue;
+}
+
+.bi-file-earmark-fill {
+    color: rgb(4, 80, 4);
+}
+
+.bi-collection-fill {
+    color: yellowgreen;
+}
+
+.bi-telephone-fill {
+    color: red;
+}
+
+.bi {
+    margin-right: 7px;
+}
+body{
+    padding: 10px;
+}
